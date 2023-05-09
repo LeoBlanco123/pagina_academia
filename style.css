@@ -157,32 +157,3 @@ main {
 .btns button:hover:before {
     width: 100%;
 }
-
-.btn-git a{
-    text-decoration: none;
-    color: white;
-    
-}
-
-.btn-git a:hover{
-    color: rgb(251, 255, 0);
-    border: none;
-}
-
-.btn-git a:before{
-    content: ' ';
-    border-radius: 20px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    width: 0;
-    height: 60px;
-    background-color: rgb(61, 61, 61);
-    z-index: -1;
-    transition: 1s;
-}
-
-.btn-git a:hover:before {
-    width: 100%;
-}
-
